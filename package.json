@@ -1,6 +1,6 @@
 {
   "name": "react-chartjs-2",
-  "version": "2.7.4",
+  "version": "2.7.5",
   "description": "react-chartjs-2",
   "main": "lib/index.js",
   "module": "es/index.js",
@@ -52,7 +52,6 @@
     "react": "^0.14 || ^15.0.0-rc || ^15.0",
     "react-addons-test-utils": "^15.3.2",
     "react-dom": "^0.14 || ^15.0.0-rc || ^15.0",
-    "rimraf": "^2.6.1",
     "rollup": "^0.47.6",
     "rollup-plugin-babel": "^3.0.2",
     "rollup-plugin-commonjs": "^8.1.0",
@@ -74,14 +73,14 @@
     "chart.js": "global:Chart"
   },
   "scripts": {
-    "clean": "rimraf lib es dist",
+    "clean": "rm -rf lib && rm -rf es  && rm -rf dist",
     "build:cjs": "babel src --out-dir lib",
     "build:es": "cross-env BABEL_ENV=jsnext babel src --out-dir es",
     "build:umd": "cross-env BABEL_ENV=rollup NODE_ENV=development rollup -c -o dist/react-chartjs-2.js",
     "build:umd:min": "cross-env BABEL_ENV=rollup NODE_ENV=production rollup -c -o dist/react-chartjs-2.min.js",
     "build": "npm run clean && npm run build:cjs && npm run build:es && npm run build:umd && npm run build:umd:min",
     "examples": "webpack-dev-server --config example/webpack.config.babel.js --progress",
-    "examples:clean": "rimraf example/dist",
+    "examples:clean": "rm -rf example/dist",
     "examples:build": "cross-env BABEL_ENV=development NODE_ENV=production webpack --config example/webpack.config.babel.js --progress",
     "examples:deploy": "npm run examples:clean && npm run examples:build && gh-pages -d example/dist",
     "start": "npm run examples",
