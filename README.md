@@ -3,7 +3,10 @@
 [![downloads](https://img.shields.io/npm/dm/react-chartjs-2.svg?style=flat-square)](https://npm-stat.com/charts.html?package=react-chartjs-2&from=2016-01-01)
 [![license](https://img.shields.io/github/license/mashape/apistatus.svg?style=flat-square)](http://opensource.org/licenses/MIT)
 
-# react-chartjs-2
+#Credits
+forked from react-chartjs-2 due lack of maintenance
+
+# react-chartjs-3
 
 React wrapper for [Chart.js 2](http://www.chartjs.org/docs/#getting-started)
 Open for PRs and contributions!
@@ -13,7 +16,7 @@ As of 2.x we have made chart.js a peer dependency for greater flexibility. Pleas
 
 ## Demo & Examples
 
-Live demo: [jerairrest.github.io/react-chartjs-2](http://jerairrest.github.io/react-chartjs-2/)
+Live demo: [mendesfelipe87.github.io/react-chartjs-3](http://mendesfelipe87.github.io/react-chartjs-3/)
 
 To build the examples locally, run:
 
@@ -39,7 +42,7 @@ Then open [`localhost:6006`](http://localhost:6006) in a browser.
 ## Installation via NPM
 
 ```bash
-npm install react-chartjs-2 chart.js --save
+npm install react-chartjs-3 chart.js --save
 ```
 
 
@@ -48,7 +51,7 @@ npm install react-chartjs-2 chart.js --save
 Check example/src/components/* for usage.
 
 ```js
-import {Doughnut} from 'react-chartjs-2';
+import {Doughnut} from 'react-chartjs-3';
 
 <Doughnut data={...} />
 ```
@@ -128,7 +131,7 @@ render() {
 Chart.js defaults can be set by importing the `defaults` object:
 
 ```javascript
-import { defaults } from 'react-chartjs-2';
+import { defaults } from 'react-chartjs-3';
 
 // Disable animating charts by default.
 defaults.global.animation = false;
@@ -137,7 +140,7 @@ defaults.global.animation = false;
 If you want to bulk set properties, try using the [lodash.merge](https://lodash.com/docs/#merge) function. This function will do a deep recursive merge preserving previously set values that you don't want to update.
 
 ```js
-import { defaults } from 'react-chartjs-2';
+import { defaults } from 'react-chartjs-3';
 import merge from 'lodash.merge';
 // or
 // import { merge } from 'lodash';
@@ -157,7 +160,7 @@ merge(defaults, {
 You can access the internal Chart.js object to register plugins or extend charts like this:
 
 ```JavaScript
-import { Chart } from 'react-chartjs-2';
+import { Chart } from 'react-chartjs-3';
 
 componentWillMount() {
 	Chart.pluginService.register({
