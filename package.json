@@ -1,11 +1,11 @@
 {
   "name": "react-chartjs-3",
-  "version": "2.7.5",
+  "version": "2.7.6",
   "description": "react-chartjs-3",
   "main": "lib/index.js",
   "module": "es/index.js",
   "jsnext:main": "es/index.js",
-  "author": "Jeremy Ayerst",
+  "author": "Felipe Mendes",
   "homepage": "https://github.com/mendesfelipe87/react-chartjs-3",
   "license" : "MIT" ,
   "repository": {
