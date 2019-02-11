@@ -1,4 +1,4 @@
-[![build status](	https://img.shields.io/travis/jerairrest/react-chartjs-3.svg?branch=master&style=flat-square)](https://travis-ci.org/jerairrest/react-chartjs-3)
+[![build status](	https://img.shields.io/travis/mendesfelipe87/react-chartjs-3.svg?branch=master&style=flat-square)](https://travis-ci.org/mendesfelipe87/react-chartjs-3)
 [![version](https://img.shields.io/npm/v/react-chartjs-3.svg?style=flat-square)](https://www.npmjs.com/package/react-chartjs-3)
 [![downloads](https://img.shields.io/npm/dm/react-chartjs-3.svg?style=flat-square)](https://npm-stat.com/charts.html?package=react-chartjs-3&from=2016-01-01)
 [![license](https://img.shields.io/github/license/mashape/apistatus.svg?style=flat-square)](http://opensource.org/licenses/MIT)
@@ -228,5 +228,5 @@ To build, watch and serve the examples (which will also watch the component sour
 ## License
 
 MIT Licensed
-Copyright (c) 2017 Jeremy Ayerst
+Copyright (c) 2019 Felipe Mendes
 
