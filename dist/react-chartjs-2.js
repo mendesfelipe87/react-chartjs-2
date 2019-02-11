@@ -4122,7 +4122,7 @@ var ChartComponent = function (_React$Component) {
       });
 
       if (shouldWarn) {
-        console.error('[react-chartjs-2] Warning: Each dataset needs a unique key. By default, the "label" property on each dataset is used. Alternatively, you may provide a "datasetKeyProvider" as a prop that returns a unique key.');
+        console.error('[react-chartjs-3] Warning: Each dataset needs a unique key. By default, the "label" property on each dataset is used. Alternatively, you may provide a "datasetKeyProvider" as a prop that returns a unique key.');
       }
     }
   };
