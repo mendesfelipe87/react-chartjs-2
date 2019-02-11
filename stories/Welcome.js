@@ -39,14 +39,14 @@ const Welcome = props => (
     </p>
     <p>
       See also&nbsp;
-      <a href="http://gor181.github.io/react-chartjs-2/">Examples</a>
-      <a href="https://github.com/gor181/react-chartjs-2">Code</a>
+      <a href="http://gor181.github.io/react-chartjs-3/">Examples</a>
+      <a href="https://github.com/gor181/react-chartjs-3">Code</a>
     </p>
   </div>
 );
 
 storiesOf('Welcome', module)
-  .add('to react-chartjs-2', () => (
+  .add('to react-chartjs-3', () => (
     <Welcome />
   ));
 

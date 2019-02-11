@@ -1,19 +1,19 @@
 {
-  "name": "react-chartjs-2",
+  "name": "react-chartjs-3",
   "version": "2.7.5",
-  "description": "react-chartjs-2",
+  "description": "react-chartjs-3",
   "main": "lib/index.js",
   "module": "es/index.js",
   "jsnext:main": "es/index.js",
   "author": "Jeremy Ayerst",
-  "homepage": "https://github.com/jerairrest/react-chartjs-2",
+  "homepage": "https://github.com/jerairrest/react-chartjs-3",
   "license" : "MIT" ,
   "repository": {
     "type": "git",
-    "url": "https://github.com/jerairrest/react-chartjs-2.git"
+    "url": "https://github.com/jerairrest/react-chartjs-3.git"
   },
   "bugs": {
-    "url": "https://github.com/jerairrest/react-chartjs-2/issues"
+    "url": "https://github.com/jerairrest/react-chartjs-3/issues"
   },
   "dependencies": {
     "lodash": "^4.17.4",
@@ -76,8 +76,8 @@
     "clean": "rm -rf lib && rm -rf es  && rm -rf dist",
     "build:cjs": "babel src --out-dir lib",
     "build:es": "cross-env BABEL_ENV=jsnext babel src --out-dir es",
-    "build:umd": "cross-env BABEL_ENV=rollup NODE_ENV=development rollup -c -o dist/react-chartjs-2.js",
-    "build:umd:min": "cross-env BABEL_ENV=rollup NODE_ENV=production rollup -c -o dist/react-chartjs-2.min.js",
+    "build:umd": "cross-env BABEL_ENV=rollup NODE_ENV=development rollup -c -o dist/react-chartjs-3.js",
+    "build:umd:min": "cross-env BABEL_ENV=rollup NODE_ENV=production rollup -c -o dist/react-chartjs-3.min.js",
     "build": "npm run clean && npm run build:cjs && npm run build:es && npm run build:umd && npm run build:umd:min",
     "examples": "webpack-dev-server --config example/webpack.config.babel.js --progress",
     "examples:clean": "rm -rf example/dist",
@@ -93,7 +93,7 @@
     "chart",
     "chart-js",
     "chart.js",
-    "react-chartjs-2",
+    "react-chartjs-3",
     "react chart.js"
   ],
   "types": "./index.d.ts"

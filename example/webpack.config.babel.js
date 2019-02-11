@@ -33,7 +33,7 @@ const config = {
   },
   resolve: {
     alias: {
-      'react-chartjs-2': '../../../src'
+      'react-chartjs-3': '../../../src'
     }
   },
   output: {

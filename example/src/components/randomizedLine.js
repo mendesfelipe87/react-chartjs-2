@@ -1,5 +1,5 @@
 import React from 'react';
-import {Line} from 'react-chartjs-2';
+import {Line} from 'react-chartjs-3';
 
 const initialState = {
   labels: ['January', 'February', 'March', 'April', 'May', 'June', 'July'],
