@@ -9,7 +9,7 @@ var _react = require('react');
 
 var _react2 = _interopRequireDefault(_react);
 
-var _reactChartjs = require('react-chartjs-2');
+var _reactChartjs = require('react-chartjs-3');
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -50,7 +50,7 @@ exports.default = _react2.default.createClass({
   }
 });
 
-},{"react":undefined,"react-chartjs-2":undefined}],2:[function(require,module,exports){
+},{"react":undefined,"react-chartjs-3":undefined}],2:[function(require,module,exports){
 'use strict';
 
 Object.defineProperty(exports, "__esModule", {
@@ -61,7 +61,7 @@ var _react = require('react');
 
 var _react2 = _interopRequireDefault(_react);
 
-var _reactChartjs = require('react-chartjs-2');
+var _reactChartjs = require('react-chartjs-3');
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -107,7 +107,7 @@ exports.default = _react2.default.createClass({
   }
 });
 
-},{"react":undefined,"react-chartjs-2":undefined}],3:[function(require,module,exports){
+},{"react":undefined,"react-chartjs-3":undefined}],3:[function(require,module,exports){
 'use strict';
 
 Object.defineProperty(exports, "__esModule", {
@@ -120,7 +120,7 @@ var _react = require('react');
 
 var _react2 = _interopRequireDefault(_react);
 
-var _reactChartjs = require('react-chartjs-2');
+var _reactChartjs = require('react-chartjs-3');
 
 var _rcolor = require('rcolor');
 
@@ -195,7 +195,7 @@ exports.default = _react2.default.createClass({
 	}
 });
 
-},{"rcolor":17,"react":undefined,"react-chartjs-2":undefined}],4:[function(require,module,exports){
+},{"rcolor":17,"react":undefined,"react-chartjs-3":undefined}],4:[function(require,module,exports){
 'use strict';
 
 Object.defineProperty(exports, "__esModule", {
@@ -206,7 +206,7 @@ var _react = require('react');
 
 var _react2 = _interopRequireDefault(_react);
 
-var _reactChartjs = require('react-chartjs-2');
+var _reactChartjs = require('react-chartjs-3');
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -236,7 +236,7 @@ exports.default = _react2.default.createClass({
 		}
 });
 
-},{"react":undefined,"react-chartjs-2":undefined}],5:[function(require,module,exports){
+},{"react":undefined,"react-chartjs-3":undefined}],5:[function(require,module,exports){
 'use strict';
 
 Object.defineProperty(exports, "__esModule", {
@@ -247,7 +247,7 @@ var _react = require('react');
 
 var _react2 = _interopRequireDefault(_react);
 
-var _reactChartjs = require('react-chartjs-2');
+var _reactChartjs = require('react-chartjs-3');
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -293,7 +293,7 @@ exports.default = _react2.default.createClass({
   }
 });
 
-},{"react":undefined,"react-chartjs-2":undefined}],6:[function(require,module,exports){
+},{"react":undefined,"react-chartjs-3":undefined}],6:[function(require,module,exports){
 'use strict';
 
 Object.defineProperty(exports, "__esModule", {
@@ -304,7 +304,7 @@ var _react = require('react');
 
 var _react2 = _interopRequireDefault(_react);
 
-var _reactChartjs = require('react-chartjs-2');
+var _reactChartjs = require('react-chartjs-3');
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -338,7 +338,7 @@ exports.default = _react2.default.createClass({
   }
 });
 
-},{"react":undefined,"react-chartjs-2":undefined}],7:[function(require,module,exports){
+},{"react":undefined,"react-chartjs-3":undefined}],7:[function(require,module,exports){
 'use strict';
 
 Object.defineProperty(exports, "__esModule", {
@@ -349,7 +349,7 @@ var _react = require('react');
 
 var _react2 = _interopRequireDefault(_react);
 
-var _reactChartjs = require('react-chartjs-2');
+var _reactChartjs = require('react-chartjs-3');
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -412,7 +412,7 @@ exports.default = _react2.default.createClass({
   }
 });
 
-},{"react":undefined,"react-chartjs-2":undefined}],8:[function(require,module,exports){
+},{"react":undefined,"react-chartjs-3":undefined}],8:[function(require,module,exports){
 'use strict';
 
 Object.defineProperty(exports, "__esModule", {
@@ -423,7 +423,7 @@ var _react = require('react');
 
 var _react2 = _interopRequireDefault(_react);
 
-var _reactChartjs = require('react-chartjs-2');
+var _reactChartjs = require('react-chartjs-3');
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -500,7 +500,7 @@ exports.default = _react2.default.createClass({
   }
 });
 
-},{"react":undefined,"react-chartjs-2":undefined}],9:[function(require,module,exports){
+},{"react":undefined,"react-chartjs-3":undefined}],9:[function(require,module,exports){
 'use strict';
 
 Object.defineProperty(exports, "__esModule", {
@@ -511,7 +511,7 @@ var _react = require('react');
 
 var _react2 = _interopRequireDefault(_react);
 
-var _reactChartjs = require('react-chartjs-2');
+var _reactChartjs = require('react-chartjs-3');
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -557,7 +557,7 @@ exports.default = _react2.default.createClass({
   }
 });
 
-},{"react":undefined,"react-chartjs-2":undefined}],10:[function(require,module,exports){
+},{"react":undefined,"react-chartjs-3":undefined}],10:[function(require,module,exports){
 'use strict';
 
 Object.defineProperty(exports, "__esModule", {
@@ -568,7 +568,7 @@ var _react = require('react');
 
 var _react2 = _interopRequireDefault(_react);
 
-var _reactChartjs = require('react-chartjs-2');
+var _reactChartjs = require('react-chartjs-3');
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -673,7 +673,7 @@ exports.default = _react2.default.createClass({
   }
 });
 
-},{"react":undefined,"react-chartjs-2":undefined}],11:[function(require,module,exports){
+},{"react":undefined,"react-chartjs-3":undefined}],11:[function(require,module,exports){
 'use strict';
 
 Object.defineProperty(exports, "__esModule", {
@@ -684,7 +684,7 @@ var _react = require('react');
 
 var _react2 = _interopRequireDefault(_react);
 
-var _reactChartjs = require('react-chartjs-2');
+var _reactChartjs = require('react-chartjs-3');
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -714,7 +714,7 @@ exports.default = _react2.default.createClass({
 		}
 });
 
-},{"react":undefined,"react-chartjs-2":undefined}],12:[function(require,module,exports){
+},{"react":undefined,"react-chartjs-3":undefined}],12:[function(require,module,exports){
 'use strict';
 
 Object.defineProperty(exports, "__esModule", {
@@ -725,7 +725,7 @@ var _react = require('react');
 
 var _react2 = _interopRequireDefault(_react);
 
-var _reactChartjs = require('react-chartjs-2');
+var _reactChartjs = require('react-chartjs-3');
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -755,7 +755,7 @@ exports.default = _react2.default.createClass({
   }
 });
 
-},{"react":undefined,"react-chartjs-2":undefined}],13:[function(require,module,exports){
+},{"react":undefined,"react-chartjs-3":undefined}],13:[function(require,module,exports){
 'use strict';
 
 Object.defineProperty(exports, "__esModule", {
@@ -766,7 +766,7 @@ var _react = require('react');
 
 var _react2 = _interopRequireDefault(_react);
 
-var _reactChartjs = require('react-chartjs-2');
+var _reactChartjs = require('react-chartjs-3');
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -810,7 +810,7 @@ exports.default = _react2.default.createClass({
   }
 });
 
-},{"react":undefined,"react-chartjs-2":undefined}],14:[function(require,module,exports){
+},{"react":undefined,"react-chartjs-3":undefined}],14:[function(require,module,exports){
 'use strict';
 
 Object.defineProperty(exports, "__esModule", {
@@ -823,7 +823,7 @@ var _react = require('react');
 
 var _react2 = _interopRequireDefault(_react);
 
-var _reactChartjs = require('react-chartjs-2');
+var _reactChartjs = require('react-chartjs-3');
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -902,7 +902,7 @@ exports.default = _react2.default.createClass({
   }
 });
 
-},{"react":undefined,"react-chartjs-2":undefined}],15:[function(require,module,exports){
+},{"react":undefined,"react-chartjs-3":undefined}],15:[function(require,module,exports){
 'use strict';
 
 Object.defineProperty(exports, "__esModule", {
@@ -913,7 +913,7 @@ var _react = require('react');
 
 var _react2 = _interopRequireDefault(_react);
 
-var _reactChartjs = require('react-chartjs-2');
+var _reactChartjs = require('react-chartjs-3');
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -953,7 +953,7 @@ exports.default = _react2.default.createClass({
   }
 });
 
-},{"react":undefined,"react-chartjs-2":undefined}],16:[function(require,module,exports){
+},{"react":undefined,"react-chartjs-3":undefined}],16:[function(require,module,exports){
 'use strict';
 
 var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
