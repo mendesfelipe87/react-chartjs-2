@@ -6,14 +6,14 @@
   "module": "es/index.js",
   "jsnext:main": "es/index.js",
   "author": "Jeremy Ayerst",
-  "homepage": "https://github.com/jerairrest/react-chartjs-3",
+  "homepage": "https://github.com/mendesfelipe87/react-chartjs-3",
   "license" : "MIT" ,
   "repository": {
     "type": "git",
-    "url": "https://github.com/jerairrest/react-chartjs-3.git"
+    "url": "https://github.com/mendesfelipe87/react-chartjs-3.git"
   },
   "bugs": {
-    "url": "https://github.com/jerairrest/react-chartjs-3/issues"
+    "url": "https://github.com/mendesfelipe87/react-chartjs-3/issues"
   },
   "dependencies": {
     "lodash": "^4.17.4",
